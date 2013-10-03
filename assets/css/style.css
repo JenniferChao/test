@@ -1,0 +1,28 @@
+    #playerBox {
+      position: absolute;
+      top: 0;
+      margin-top: 0px;
+      padding-top: 0px;
+      border-top: 0px;
+      z-index: 1000;
+    }
+
+    #playerBox.fixed {
+      position: fixed;
+      top: 0;
+      margin-top: 0px;
+      padding-top: 0px;
+      border-top: 0px;
+    }
+
+    /* override margin of widget-box*/
+    .widget-box {
+      margin: 0px;
+    }
+
+    .snapshot {
+      width:100%;
+      height:auto;
+    }
+
+
